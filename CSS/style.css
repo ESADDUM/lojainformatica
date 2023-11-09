@@ -1,8 +1,30 @@
 /*todos os estilos de paragrafo*/
 /*quando a tag tem ponto antes do nome (Exemplo: .p1) no index deve chamar com class (Exemplo: <p class="p1"> quando não tem ponto não chama com class */
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+}
+
 body{
     background-color: black;
+    font-family: 'Courier New', Courier, monospace; /*carrega o tipo de fonte na sequencia caso o navegador não tenha a primeira fonte e troca para a seguinte*/
+    text-align: left; 
 }
+/* Estilos para o menu superior */
+#menu {
+    background-color: white;
+}
+#menu a {
+    display: inline-block;
+    padding: 5px 10px;
+}
+/* Estilos para o conteúdo principal */
+#content {
+    background-color: #f5ecd0;
+    padding: 20px;
+}
+
 h1{
     color: white;
     font-size: 20px;
@@ -56,6 +78,18 @@ h2{
 	border-color:black;
 	width: 50px;
 	height:50;
+}
+
+.header img {
+    width: 50%;
+}
+.social-links {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+.social-links a {
+    margin: 0 10px;
 }
 
 /*todos os estilos de links*/
