@@ -22,10 +22,7 @@ body{
 menu {
     background-color: white;
 }
-#menu a {
-    display: inline-block;
-    padding: 5px 10px;
-}
+
 /* Estilos para o conteúdo principal */
 content {
     background-color: #f5ecd0;
