@@ -75,7 +75,7 @@ h2{
     width: 50%;
 	border:2px;
 	border-color:green;
-	border-radius:50%
+	border-width: 50%;
 }
 
 .img2{
