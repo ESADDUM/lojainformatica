@@ -34,7 +34,7 @@ content {
     font-size: 20px;
     font-weight: 700; /*negrito*/
     font-family: 'Courier New', Courier, monospace; /*carrega o tipo de fonte na sequencia caso o navegador não tenha a primeira fonte e troca para a seguinte*/
-    text-align: left; 
+    text-align: center; 
 }
 h2{
     color: yellow;
