@@ -12,15 +12,26 @@ header {
     color: white;
     text-align: center;
 }
+.menu_head{
+    background-color: black;
+    font-family: 'Courier New', Courier, monospace; /*carrega o tipo de fonte na sequencia caso o navegador não tenha a primeira fonte e troca para a seguinte*/
+    text-align: right;
+    color: white; 
+
+
+}
 
 body{
     background-color: black;
-    font-family: 'Courier New', Courier, monospace; /*carrega o tipo de fonte na sequencia caso o navegador não tenha a primeira fonte e troca para a seguinte*/
+    font-family: 'Courier New', Courier, monospace;
     text-align: left; 
 }
 /* Estilos para o menu superior */
-menu {
-    background-color: white;
+.menu_sup {
+    background-color: #333;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: right;
+    color: white; 
 }
 
 /* Estilos para o conteúdo principal */
@@ -41,7 +52,7 @@ h2{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: large;
 }
-.table
+
 
 /*text-decoration: 
 		underline - linha embaixo; 
