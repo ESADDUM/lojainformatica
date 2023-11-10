@@ -1,24 +1,114 @@
-/*todos os estilos de paragrafo*/
-/*quando a tag tem ponto antes do nome (Exemplo: .p1) no index deve chamar com class (Exemplo: <p class="p1"> quando não tem ponto não chama com class */
+/* head */
 
 head{
     background-color: #333;
     color: white;
+    font-size: 20px;
+    font-weight: 700; /*negrito*/
+    font-family: 'Courier New', Courier, monospace; /*carrega o tipo de fonte na sequencia caso o navegador não tenha a primeira fonte e troca para a seguinte*/
+}
+/*table_1 - Definindo os estilos para a tabela */
+
+.table_1{
+    width: 100%;
+    border-collapse: collapse;
+}
+/* Definindo as colunas com tamanhos específicos */
+.table_1 td:nth-child(1){
+    width: 30%;
+}
+
+.table_1 td:nth-child(2) {
+    width: 35%;
+}
+
+.table_1 td:nth-child(3) {
+    width: 35%;
+}
+/* Definindo centralizando o texto nas células */
+.table_1 td {
     text-align: center;
+}
+/* Removendo as bordas entre as células */
+.table_1 td, .table_1 th {
+    border: 2px solid black;
+    padding: 8px;
+}
+/* links (entrar, cadastrar e meu carrinho */
+.link_entrar{ 
+    color: white;
+    text-align: center;
+}
+.link_carrinho{ 
+    color: white;
+    text-align: right;
+}
+/* --------------------------------------------------------------------------*/
+/* --------------------------------------------------------------------------*/
+
+/* Estilos para o cabeçalho */
+.header {
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+/* Estilos para a imagem do logo */
+.img_logo {
+    width: 20%;
+    /* Adicione outros estilos conforme necessário */
+}
+
+/* Estilos para o menu superior */
+.menu_sup {
+    background-color: #333; /* Mantém a cor de fundo original para o menu superior */
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    color: white;
+}
+
+.menu_sup ul {
+    list-style: none;
+    padding: 0;
+}
+
+.menu_sup li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.menu_sup a {
+    text-decoration: none;
+    color: white;
+}
+
+/* --------------------------------------------------------------------------*/
+/* --------------------------------------------------------------------------*/
+
+
+
+.h1{
+    color: white;
+    font-size: 20px;
+    font-weight: 700; /*negrito*/
+    font-family: 'Courier New', Courier, monospace; /*carrega o tipo de fonte na sequencia caso o navegador não tenha a primeira fonte e troca para a seguinte*/
+    text-align: left; 
+}
+
+.menu_head{
+    background-color: black;
+    font-family: 'Courier New', Courier, monospace; /*carrega o tipo de fonte na sequencia caso o navegador não tenha a primeira fonte e troca para a seguinte*/
+    text-align: right;
+    color: white; 
 }
 
 header {
     background-color:black;
     color: white;
     text-align: center;
-}
-.menu_head{
-    background-color: black;
-    font-family: 'Courier New', Courier, monospace; /*carrega o tipo de fonte na sequencia caso o navegador não tenha a primeira fonte e troca para a seguinte*/
-    text-align: right;
-    color: white; 
-
-
 }
 
 body{
@@ -34,93 +124,3 @@ body{
     color: white; 
 }
 
-/* Estilos para o conteúdo principal */
-content {
-    background-color: #f5ecd0;
-    padding: 20px;
-}
-
-.h1_head{
-    color: white;
-    font-size: 20px;
-    font-weight: 700; /*negrito*/
-    font-family: 'Courier New', Courier, monospace; /*carrega o tipo de fonte na sequencia caso o navegador não tenha a primeira fonte e troca para a seguinte*/
-    text-align: left; 
-}
-h2{
-    color: yellow;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: large;
-}
-
-
-/*text-decoration: 
-		underline - linha embaixo; 
-		overline = linha em cima, none - sem linha*/
-p{
-    color: white;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: medium; 
-         }
-         
-
-.p1 {
-    color: darkgrey;
-    font-size: 20px;
-    font-weight: 700; /*negrito*/
-    font-family: 'Courier New', Courier, monospace; /*carrega o tipo de fonte na sequencia caso o navegador não tenha a primeira fonte e troca para a seguinte*/
-    text-align: center;
-    text-decoration: overline underline; /*overline = linha em cima, none = sem linha*/
-    
-}
-.p2{
-    color: red;
-    text-align: justify;
-    font-weight: 700; /*negrito*/
-	font-size:30px;
-	text-decoration:none;
-}
-
-/*todos os estilos de imagem*/
-.img_logo{
-    border-color:black;
-	width: 80px;
-}
-
-.img2{
-	border:3px;
-	border-color:black;
-	width: 50px;
-	height:50;
-}
-
-.img3 {
-    width: 40%;
-}
-.social-links {
-    display: flex;
-    justify-content: center;
-    padding: 10px;
-}
-.social-links a {
-    margin: 0 10px;
-}
-
-/*todos os estilos de links*/
-.link_retorno{
-	font-family:Verdana;
-	font-size:12px;
-    color: white;
-}
-.link_head{
-    color: white;
-    font-size: 20px;
-    font-weight: 700; /*negrito*/
-    font-family: 'Courier New', Courier, monospace;
-    text-align: right;
-}
-.link_menusup{
-	font-family:Verdana;
-	font-size:12px;
-    color: white;
-}
