@@ -85,8 +85,6 @@ p{
 .img_logo{
     border-color:black;
 	width: 60px;
-	height:50;
-	
 }
 
 .img2{
@@ -115,9 +113,10 @@ p{
     color: white;
 }
 .link_head{
-	font-family:Verdana;
-	font-size:12px;
     color: white;
+    font-size: 20px;
+    font-weight: 700; /*negrito*/
+    font-family: 'Courier New', Courier, monospace;
     text-align: right;
 }
 .link_menusup{
