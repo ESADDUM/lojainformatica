@@ -1,10 +1,16 @@
 /*todos os estilos de paragrafo*/
 /*quando a tag tem ponto antes do nome (Exemplo: .p1) no index deve chamar com class (Exemplo: <p class="p1"> quando não tem ponto não chama com class */
-header {
+
+head{
     background-color: #333;
     color: white;
     text-align: center;
-    table-layout: ;
+}
+
+header {
+    background-color:black;
+    color: white;
+    text-align: center;
 }
 
 body{
