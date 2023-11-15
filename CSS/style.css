@@ -1,3 +1,10 @@
+
+body{
+    background-color: black;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: left; 
+}
+
 /* head */
 
 head{
@@ -47,8 +54,12 @@ head{
 /* --------------------------------------------------------------------------*/
 
 /* Estilos para o cabeçalho */
-.header {
+.header{
     background-color: black;
+    position: absolute;
+    top: 50px;
+    left: 10%;
+    right: 10%;
     color: white;
     font-size: 20px;
     font-weight: 700;
@@ -87,6 +98,80 @@ head{
 
 /* --------------------------------------------------------------------------*/
 /* --------------------------------------------------------------------------*/
+/* div */
+
+.fundo_degrade{
+    background-image: linear-gradient(45deg,rgb(114, 113, 113), rgb(69, 67, 67));
+    height: 100vh; /* direção do degrade vh = degrade inclinado - v= degrade na vertical - h= degrade na horizontal */
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+.ofertas{
+    position: absolute;
+    background-color: rgb(19, 131, 192);
+    top: 750px;
+    left: 50%;
+    transform: translate(-50%,-50%); /* usado para animar - neste caso ele ira dar zoom ao passar com o mouse sobre */
+    border-radius: 15px; /* Usado para criar um leve arredondamento das bordas */
+    padding: 15px;
+    text-align: center;
+    color: white;
+}
+.placasDeVideo{
+    position: absolute;
+    background-color:  rgb(19, 131, 192);
+    top: 1200px;
+    left: 50%;
+    transform: translate(-50%,-50%); /* usado para animar - neste caso ele ira dar zoom ao passar com o mouse sobre */
+    border-radius: 15px; /* Usado para criar um leve arredondamento das bordas */
+    padding: 15px;
+    text-align: center;
+    color: white;
+
+}
+.placasMae{
+    position: absolute;
+    background-color:  rgb(19, 131, 192);
+    top: 1650px;
+    left: 50%;
+    transform: translate(-50%,-50%); /* usado para animar - neste caso ele ira dar zoom ao passar com o mouse sobre */
+    border-radius: 15px; /* Usado para criar um leve arredondamento das bordas */
+    padding: 15px;
+    text-align: center;
+    color: white;
+}
+footer{
+    position: absolute;
+    top: 3000px;
+    left: 30%;
+    right: 30%;
+    text-align: center;
+    color: white;
+}
+/* Estilos para a tabela de produtos */
+.tabela-produtos {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.tabela-produtos td {
+    border: 1px solid #ddd;
+    padding: 15px;
+    text-align: center;
+}
+
+.tabela-produtos img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Estilos para cada seção de produtos */
+#grandes-ofertas {
+    background-color: #f0f0f0;
+    padding: 20px;
+}
 
 
 
@@ -105,17 +190,7 @@ head{
     color: white; 
 }
 
-header {
-    background-color:black;
-    color: white;
-    text-align: center;
-}
 
-body{
-    background-color: black;
-    font-family: 'Courier New', Courier, monospace;
-    text-align: left; 
-}
 /* Estilos para o menu superior */
 .menu_sup {
     background-color: #333;
